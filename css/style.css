@@ -424,10 +424,14 @@ p {
   box-shadow: var(--shadow-md);
 }
 .medal-silver {
-  color: #6b7280;
+  color: #4b5563;
+  background: linear-gradient(145deg, #f5f7fa, #d9dbde);
+  border-color: #c5c9cc;
 }
 .medal-bronze {
-  color: #b87333;
+  color: #a55e22;
+  background: linear-gradient(145deg, #f9e5d5, #e2b387);
+  border-color: #d4995c;
 }
 .dark .medal {
   background: var(--bg-soft);
