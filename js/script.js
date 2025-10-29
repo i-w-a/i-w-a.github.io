@@ -166,7 +166,21 @@
       "skills-heading": "Skills",
       "kaggle-heading": "Kaggle",
       "publications-heading": "Featured Publications",
-      "contact-heading": "Contact"
+      "contact-heading": "Contact",
+      "hero-btn-pubs": "View Publications",
+      "hero-btn-contact": "Contact",
+      "about-paragraph": "Research areas: Machine Learning (ML), Human-Computer Interaction (HCI), Eye-movement analysis, Autistic trait estimation. Studying algorithms for neurodiversity support using gaze, emotion recognition and perspective-taking task data, plus reliability & acceptance of virtual agents and evaluation of automated social skills training.",
+      "focus-paragraph": "Bridging fundamentals and applications: gaze measurement pipelines, task stimulus design, model reliability evaluation, quantification of social interaction.",
+      highlight1: "Neurodevelopmental support via eye-movement analysis (Frontiers in Digital Health)",
+      highlight2: "4-week evaluation of automated social skills training (JMIR Formative Research)",
+      highlight3: "Virtual agent trust & Theory of Mind factors (IEEE FG)",
+      highlight4: "Autistic trait prediction via perspective-taking + emotion recognition (IEEE EMBS)",
+      "kaggle-intro": "Competitions Expert /",
+      "kaggle-link": "View Kaggle Profile",
+      "contact-desc": "For collaboration, research, data analysis or AI agent implementation inquiries:",
+      "scholar-link": "Google Scholar",
+      "github-link": "github.com/i-w-a",
+      "linkedin-link": "LinkedIn"
     },
     ja: {
       subtitle: "AIエンジニア",
@@ -175,7 +189,21 @@
       "skills-heading": "Skills",
       "kaggle-heading": "Kaggle",
       "publications-heading": "Featured Publications",
-      "contact-heading": "Contact"
+      "contact-heading": "Contact",
+      "hero-btn-pubs": "代表論文を見る",
+      "hero-btn-contact": "問い合わせ",
+      "about-paragraph": "研究領域: 機械学習 (ML) / ヒューマンコンピュータインタラクション (HCI) / 眼球運動解析 / 自閉傾向推定。視線や感情認知・視点取得課題データを用いてニューロダイバーシティ理解と支援技術につながるアルゴリズムを研究。仮想エージェントの信頼性・受容性向上や自動化されたソーシャルスキルトレーニングの評価にも従事。",
+      "focus-paragraph": "基礎研究と応用の橋渡し: 視線計測パイプライン、課題誘発刺激設計、モデルの信頼性評価、社会的相互作用の定量化。",
+      highlight1: "Eye-movement分析で神経発達症支援 (Frontiers in Digital Health)",
+      highlight2: "自動ソーシャルスキルトレーニングの4週間検証 (JMIR Formative Research)",
+      highlight3: "仮想エージェント信頼性とTheory of Mind要因 (IEEE FG)",
+      highlight4: "視点取得 + 表情認知で自閉傾向予測 (IEEE EMBS)",
+      "kaggle-intro": "Competitions Expert /",
+      "kaggle-link": "Kaggleプロフィールへ",
+      "contact-desc": "研究・コラボ・データ解析・AIエージェント実装関連のご相談は以下よりご連絡ください。",
+      "scholar-link": "Google Scholar",
+      "github-link": "github.com/i-w-a",
+      "linkedin-link": "LinkedIn"
     }
   };
 

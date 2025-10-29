@@ -41,8 +41,8 @@
           学生期（大阪大学 / NAIST）では視線・感情認知・視点取得課題を用いた神経発達症支援研究に加え、仮想エージェントの信頼性と心の理論 (Theory of Mind) 要因の分析・モデル化に従事。現在は LINEヤフー株式会社でマルチAIエージェント開発に取り組んでいます。
         </p>
         <div class="hero-actions">
-          <a href="#publications" class="btn primary">代表論文を見る</a>
-          <a href="#contact" class="btn outline">問い合わせ</a>
+          <a href="#publications" id="hero-btn-pubs" class="btn primary">代表論文を見る</a>
+          <a href="#contact" id="hero-btn-contact" class="btn outline">問い合わせ</a>
         </div>
         <div class="social-icons hero-social">
           <a href="https://x.com/yourhandle" aria-label="X" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
@@ -60,7 +60,7 @@
   <section id="about" class="section fade-section">
     <div class="container">
       <h2 id="about-heading">About</h2>
-      <p>
+      <p id="about-paragraph">
         研究領域: 機械学習 (ML) / ヒューマンコンピュータインタラクション (HCI) / 眼球運動解析 / 自閉傾向推定。視線や感情認知・視点取得課題データを用いてニューロダイバーシティ理解と支援技術につながるアルゴリズムを研究。仮想エージェントの信頼性・受容性向上や自動化されたソーシャルスキルトレーニングの評価にも従事。
       </p>
       <div class="grid two">
@@ -75,15 +75,15 @@
         </div>
         <div class="card">
           <h3>フォーカス</h3>
-          <p>基礎研究と応用の橋渡し: 視線計測パイプライン、課題誘発刺激設計、モデルの信頼性評価、社会的相互作用の定量化。</p>
+          <p id="focus-paragraph">基礎研究と応用の橋渡し: 視線計測パイプライン、課題誘発刺激設計、モデルの信頼性評価、社会的相互作用の定量化。</p>
         </div>
         <div class="card">
           <h3>Research Highlights</h3>
           <ul class="timeline">
-            <li><span class="year">2023</span><span class="desc">Eye-movement分析で神経発達症支援 (Frontiers in Digital Health)</span></li>
-            <li><span class="year">2023</span><span class="desc">自動ソーシャルスキルトレーニングの4週間検証 (JMIR Formative Research)</span></li>
-            <li><span class="year">2023</span><span class="desc">仮想エージェント信頼性とTheory of Mind要因 (IEEE FG)</span></li>
-            <li><span class="year">2023</span><span class="desc">視点取得 + 表情認知で自閉傾向予測 (IEEE EMBS)</span></li>
+            <li><span class="year">2023</span><span id="highlight1" class="desc">Eye-movement分析で神経発達症支援 (Frontiers in Digital Health)</span></li>
+            <li><span class="year">2023</span><span id="highlight2" class="desc">自動ソーシャルスキルトレーニングの4週間検証 (JMIR Formative Research)</span></li>
+            <li><span class="year">2023</span><span id="highlight3" class="desc">仮想エージェント信頼性とTheory of Mind要因 (IEEE FG)</span></li>
+            <li><span class="year">2023</span><span id="highlight4" class="desc">視点取得 + 表情認知で自閉傾向予測 (IEEE EMBS)</span></li>
           </ul>
         </div>
       </div>
@@ -143,13 +143,13 @@
   <section id="kaggle" class="section fade-section">
     <div class="container">
       <h2 id="kaggle-heading">Kaggle</h2>
-      <p class="intro">Competitions Expert /
+      <p class="intro" id="kaggle-intro">Competitions Expert /
         <span class="medals">
           <span class="medal"><i class="fa-solid fa-medal medal-silver"></i> Silver x3</span>
           <span class="medal"><i class="fa-solid fa-medal medal-bronze"></i> Bronze x3</span>
         </span>
       </p>
-      <p><a class="pub-link" href="https://www.kaggle.com/ichiko" target="_blank" rel="noopener">Kaggleプロフィールへ</a></p>
+      <p><a id="kaggle-link" class="pub-link" href="https://www.kaggle.com/ichiko" target="_blank" rel="noopener">Kaggleプロフィールへ</a></p>
     </div>
   </section>
 
@@ -196,12 +196,12 @@
   <section id="contact" class="section alt fade-section">
     <div class="container">
       <h2 id="contact-heading">Contact</h2>
-      <p>研究・コラボ・データ解析・AIエージェント実装関連のご相談は以下よりご連絡ください。</p>
+      <p id="contact-desc">研究・コラボ・データ解析・AIエージェント実装関連のご相談は以下よりご連絡ください。</p>
       <ul class="contact-list">
         <li><i class="fa-solid fa-envelope"></i> kota.iwauchi[at]is.naist.jp</li>
-        <li><i class="fa-solid fa-graduation-cap"></i> <a href="https://scholar.google.com/citations?user=PN0idYcAAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
-        <li><i class="fa-brands fa-github"></i> <a href="https://github.com/i-w-a" target="_blank" rel="noopener">github.com/i-w-a</a></li>
-        <li><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/kota-iwauchi-b40013235/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><i class="fa-solid fa-graduation-cap"></i> <a id="scholar-link" href="https://scholar.google.com/citations?user=PN0idYcAAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+        <li><i class="fa-brands fa-github"></i> <a id="github-link" href="https://github.com/i-w-a" target="_blank" rel="noopener">github.com/i-w-a</a></li>
+        <li><i class="fa-brands fa-linkedin"></i> <a id="linkedin-link" href="https://www.linkedin.com/in/kota-iwauchi-b40013235/" target="_blank" rel="noopener">LinkedIn</a></li>
       </ul>
     </div>
   </section>
