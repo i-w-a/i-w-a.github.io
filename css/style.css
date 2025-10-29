@@ -397,6 +397,42 @@ p {
   border-color: var(--accent);
 }
 
+/* Kaggle medals */
+.medals {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+.medal {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  background: var(--bg-alt);
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+.medal i {
+  font-size: 1rem;
+}
+.medal:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+.medal-silver {
+  color: #6b7280;
+}
+.medal-bronze {
+  color: #b87333;
+}
+.dark .medal {
+  background: var(--bg-soft);
+}
+
 /* Timeline */
 .timeline {
   list-style: none;
