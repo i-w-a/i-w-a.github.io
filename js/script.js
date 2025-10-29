@@ -151,4 +151,63 @@
       closeMenu();
     }
   });
+
+  /* ------------------------------
+     Language Toggle (JA / EN)
+  ------------------------------ */
+  const langToggle = document.querySelector(".lang-toggle");
+  const LANG_KEY = "portfolio-lang";
+
+  const translations = {
+    en: {
+      subtitle: "AI Engineer",
+      intro: "During my time at Osaka University and NAIST I researched neurodevelopmental support using gaze, emotion recognition and perspective-taking tasks, and analyzed trust and Theory of Mind factors in virtual agents. Currently developing multi-AI agents at LINE Yahoo.",
+      "about-heading": "About",
+      "skills-heading": "Skills",
+      "kaggle-heading": "Kaggle",
+      "publications-heading": "Featured Publications",
+      "contact-heading": "Contact"
+    },
+    ja: {
+      subtitle: "AIエンジニア",
+      intro: "学生期（大阪大学 / NAIST）では視線・感情認知・視点取得課題を用いた神経発達症支援研究に加え、仮想エージェントの信頼性と心の理論 (Theory of Mind) 要因の分析・モデル化に従事。現在は LINEヤフー株式会社でマルチAIエージェント開発に取り組んでいます。",
+      "about-heading": "About",
+      "skills-heading": "Skills",
+      "kaggle-heading": "Kaggle",
+      "publications-heading": "Featured Publications",
+      "contact-heading": "Contact"
+    }
+  };
+
+  function applyLanguage(lang) {
+    const dict = translations[lang];
+    if (!dict) return;
+    Object.entries(dict).forEach(([id, text]) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = text;
+    });
+    langToggle.textContent = lang === "ja" ? "EN" : "JA";
+    document.documentElement.lang = lang;
+    localStorage.setItem(LANG_KEY, lang);
+  }
+
+  function toggleLanguage() {
+    const current = localStorage.getItem(LANG_KEY) || "ja";
+    const next = current === "ja" ? "en" : "ja";
+    applyLanguage(next);
+  }
+
+  // Restore language
+  const savedLang = localStorage.getItem(LANG_KEY) || "ja";
+  applyLanguage(savedLang);
+
+  if (langToggle) {
+    langToggle.addEventListener("click", toggleLanguage);
+    langToggle.addEventListener("keypress", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        toggleLanguage();
+      }
+    });
+  }
 })();
