@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Dependency / build artifacts (将来追加する場合)
+node_modules/
+dist/
+build/
+
+# Environment / editor
+.env
+.vscode/
+.idea/
+
+# Misc
+*.zip
+*.tgz

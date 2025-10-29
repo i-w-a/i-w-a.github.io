@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Portfolio | Your Name</title>
+  <meta name="description" content="研究 / 開発ポートフォリオサイト" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="メインナビゲーション">
+      <div class="logo">Your Name</div>
+      <button class="nav-toggle" aria-label="メニュー開閉"><span></span><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="theme-toggle" aria-label="テーマ切替" tabindex="0">
+        <i class="fa-solid fa-moon"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="section hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Your Name</h1>
+        <p class="subtitle">Researcher / Engineer / Data Scientist</p>
+        <p class="intro">
+          ここに短いキャッチコピー。AI・データサイエンス・研究開発に注力し、価値ある成果を創出しています。
+        </p>
+        <div class="hero-actions">
+          <a href="#publications" class="btn primary">代表論文を見る</a>
+          <a href="#contact" class="btn outline">問い合わせ</a>
+        </div>
+        <div class="social-icons hero-social">
+          <a href="https://x.com/yourhandle" aria-label="X" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://scholar.google.com/citations?user=YOURID" aria-label="Google Scholar" target="_blank" rel="noopener"><i class="fa-solid fa-graduation-cap"></i></a>
+            <!-- FontAwesomeにScholarは無いため graduation-cap 代替 -->
+          <a href="https://www.kaggle.com/yourhandle" aria-label="Kaggle" target="_blank" rel="noopener"><i class="fa-brands fa-kaggle"></i></a>
+          <a href="https://www.linkedin.com/in/yourhandle" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/yourhandle" aria-label="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true"><span>Scroll</span><i class="fa-solid fa-chevron-down"></i></div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section fade-section">
+    <div class="container">
+      <h2>About</h2>
+      <p>
+        研究領域: 機械学習 / 自然言語処理 / 最適化。ユーザー価値を最大化するためのアルゴリズム開発や論文執筆を行っています。
+      </p>
+      <div class="grid two">
+        <div class="card">
+          <h3>経歴</h3>
+          <ul class="timeline">
+            <li><span class="year">2024 - 現在</span><span class="desc">Some Company / Research Engineer</span></li>
+            <li><span class="year">2022 - 2024</span><span class="desc">University / Graduate Research</span></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>フォーカス</h3>
+          <p>基礎研究と実用プロダクトの橋渡し。高速推論・モデル圧縮・評価指標設計など。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section alt fade-section">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-block">
+          <h3>Languages</h3>
+          <ul>
+            <li>Python</li>
+            <li>TypeScript / JavaScript</li>
+            <li>Rust / C++ (基礎)</li>
+          </ul>
+        </div>
+        <div class="skill-block">
+          <h3>ML / Data</h3>
+          <ul>
+            <li>PyTorch / Lightning</li>
+            <li>TensorFlow</li>
+            <li>scikit-learn</li>
+            <li>HuggingFace</li>
+          </ul>
+        </div>
+        <div class="skill-block">
+          <h3>Tools</h3>
+          <ul>
+            <li>Git / GitHub Actions</li>
+            <li>Docker</li>
+            <li>AWS / GCP</li>
+          </ul>
+        </div>
+        <div class="skill-block">
+          <h3>Focus</h3>
+          <ul>
+            <li>Model Compression</li>
+            <li>Evaluation / Benchmarking</li>
+            <li>Prompt Engineering</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications (Featured) -->
+  <section id="publications" class="section fade-section">
+    <div class="container">
+      <h2>Featured Publications</h2>
+      <p class="scholar-link">
+        すべての発表は
+        <a href="https://scholar.google.com/citations?user=YOURID" target="_blank" rel="noopener">Google Scholar</a>
+        を参照してください。
+      </p>
+      <div class="pub-grid">
+        <article class="pub-card">
+          <h3 class="pub-title">論文タイトル A</h3>
+          <p class="pub-meta">Your Name*, CoAuthor / Journal Name 2024</p>
+          <a href="#" class="pub-link">DOI / PDF</a>
+        </article>
+        <article class="pub-card">
+          <h3 class="pub-title">論文タイトル B</h3>
+          <p class="pub-meta">Your Name*, CoAuthor / Conference 2023</p>
+          <a href="#" class="pub-link">DOI / PDF</a>
+        </article>
+        <article class="pub-card">
+          <h3 class="pub-title">論文タイトル C</h3>
+          <p class="pub-meta">Your Name*, CoAuthor / Preprint 2023</p>
+          <a href="#" class="pub-link">ArXiv / PDF</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section alt fade-section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>連絡先やコラボの相談は下記よりお願いします。</p>
+      <ul class="contact-list">
+        <li><i class="fa-solid fa-envelope"></i> your.email@example.com</li>
+        <li><i class="fa-brands fa-github"></i> <a href="https://github.com/yourhandle" target="_blank" rel="noopener">github.com/yourhandle</a></li>
+        <li><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/yourhandle" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>&copy; <span id="year"></span> Your Name. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
