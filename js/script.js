@@ -180,7 +180,8 @@
       "contact-desc": "For collaboration, research, data analysis or AI agent implementation inquiries:",
       "scholar-link": "Google Scholar",
       "github-link": "github.com/i-w-a",
-      "linkedin-link": "LinkedIn"
+      "linkedin-link": "LinkedIn",
+      "scholar-paragraph": "Refer to all publications on Google Scholar."
     },
     ja: {
       subtitle: "AIエンジニア",
@@ -203,7 +204,8 @@
       "contact-desc": "研究・コラボ・データ解析・AIエージェント実装関連のご相談は以下よりご連絡ください。",
       "scholar-link": "Google Scholar",
       "github-link": "github.com/i-w-a",
-      "linkedin-link": "LinkedIn"
+      "linkedin-link": "LinkedIn",
+      "scholar-paragraph": "すべての発表は Google Scholar を参照してください。"
     }
   };
 
